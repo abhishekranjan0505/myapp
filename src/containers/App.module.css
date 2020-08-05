@@ -18,7 +18,7 @@
   justify-content: space-between;
   /* align-items: center; */
   position: fixed;
-  width: 200px;
+  width: 16vw;
   height: 100%;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@
 
 .Courses {
   /* position: absolute; */
-  margin-left: 30vh;
+  margin-left: 20vw;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
@@ -75,7 +75,12 @@
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
-  margin: 0px 10px auto 10px;
+  margin: 0px 20px auto 10px;
+}
+@media (max-width: 1024px) {
+  .LatestActivities {
+    margin-right: 10px;
+  }
 }
 
 .Text {
